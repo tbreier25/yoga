@@ -1,0 +1,247 @@
+body {
+    background-color: #3F2860;
+    font-family: Verdana, Arial, sans-serif;
+    color: #3F2860;
+}
+label{ float: left; text-align: right; display: block; width: 10em
+; padding-right: 1em}
+input{display: block; margin-bottom: 2em
+}
+textarea{
+    display: block;
+    margin-bottom: 2em;
+}
+button{margin-left: 12em}
+form{
+    padding: 3em;
+}
+header, main, nav, footer, figure, figcaption, aside, section,
+article { display: block;}
+#mobile{
+    display: none;
+}
+#desktop{
+    display: inline;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 2px #3F2860;
+    border
+    margin-bottom: 1em;
+    border-collapse: collapse;
+}
+td{
+    padding: .5em;
+    border: 2px #3F2860;
+}
+:nth-of-type(2){
+    background-color: #D7E8E9;
+}
+caption{
+    margin: 1em;
+    font-family: bold;
+    font-size: 120%;
+}
+@media only screen and (max-width: 64em) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    #wrapper{
+        min-width: 0;
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        padding-top: 1px;
+    }
+    main{
+        padding-top: 0;
+        padding-bottom: 2.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin: 0;
+        font-size: 90%;
+        float: none;
+    }
+    nav{
+        float: none;
+        width: auto;
+        padding-left: 2em;
+
+    }
+    nav p{
+        padding: .2em;
+        margin-left: .3em;
+        float: left;
+        width: 23%;
+    }
+    h2, h3, p, dl{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    main p{
+        margin-left: 2em;
+    }
+    #floatleft{
+        margin-left: 2em;
+        margin-bottom: 1em;
+    }
+    #clear{
+        padding-left: 2em;
+    }
+    #mathero, #loungehero{
+        height: 150px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width: 37.5em) {
+    label{ float: none; text-align: left;}
+    input[type="submit"] {margin-left: 0;}
+
+
+
+
+    h1{
+        font-size: 2em;
+        padding-top: .25em;
+        padding-left: 1.5em;
+        width: 85%;
+        text-align: center;
+    }
+    nav p{
+        padding: .5em;
+        width: 45%;
+        float: left;
+        min-width: 6em;
+        margin-left: .5em;
+    }
+    li{
+        font-size: 100%;
+    }
+    #floatleft{
+        float: none;
+        display: none;
+    }
+    #mathero{
+        background-image: none;
+        height: 0;
+    }
+    #loungehero{
+        background-image: none;
+        height: 0;
+    }
+    footer{
+        padding: .5em;
+        margin: 0;
+    }
+    #mobile{
+        display: inline;
+    }
+    #desktop{
+        display: none;
+    }
+}
+main{
+    padding-top: 0em;
+    padding-left: 3em;
+    padding-bottom: 3em;
+    padding-right: 3em;
+    display: block;
+    margin-left: 170px;
+}
+#mathero{
+    height: 300px;
+    background-image: url("yogamat.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#loungehero{
+    height: 300px;
+    background-image: url("yogalounge.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#wrapper{
+    text-align: center;
+    width: 80%;
+    color: #3F2860;
+    background-color: #F5F5F5;
+    min-width: 550px;
+    max-width: 1280px;
+}
+img{
+    padding: 2em;
+}
+#floatleft{
+    float: left;
+    margin-right: 4em;
+}
+#clear{
+    clear: both;
+}
+header {
+    background-color: #9BC1C2;
+    background-image: url("lilyheader.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+footer {
+    background-color: #9BC1C2;
+    font-family: small, "Harlow Solid Italic", center;
+    padding: 1em;
+}
+nav {
+    font: bold;
+    text-align-last: center;=
+    padding: 1em;
+    float: left;
+    width: 190px;}
+    :link{
+        color: #3F2860;
+    }
+    :visited{
+        color: #497777;
+    }
+    :hover{
+        color: #A26100;
+        border: inset 3px #333333;
+    }
+
+ul{
+    marker: none;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+nav a {
+    text-decoration-line: none;
+    text-align: center;
+    display: block;
+    font: bold;
+    border-image-outset: #CCCCCC 3px;
+    padding: 1em;
+    margin-bottom: 1em;
+
+}
+nav a:hover{
+    background-color: #B6D2D3;
+    transition: background-color;
+    transition-duration: 3s;
+    transition-timing-function: ease-out;
+}
+h1 {
+   padding-top: 50px;
+    padding-left: 2em;
+}
+li {
+    font-size: 90%;
+}
+*{
+    box-sizing: border-box;
+}
